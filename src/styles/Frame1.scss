@@ -1,0 +1,35 @@
+.conatiner {
+  background-color: #1f2a44;
+}
+
+.title {
+  background-color: aqua;
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.body {
+  background-color: red;
+  display: flex;
+}
+.categories-contanier {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  .create-categories {
+    background-color: #71cf48;
+  }
+}
+
+.right-part {
+  width: 100%;
+  text-align: left;
+  background-color: cadetblue;
+  .input-field {
+    display: flex;
+    flex-direction: column;
+  }
+}
